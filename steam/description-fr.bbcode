@@ -1,0 +1,91 @@
+[h1]Construction de sous-sol (Français)[/h1]
+Workshop ID: 3806513504
+Mod ID: aparosa_BasementDig
+[quote=⚠ À lire avant utilisation]
+[b]⚠ Pour l'instant, solo uniquement. La prise en charge du multijoueur est en développement. Ne l'utilisez pas sur un serveur.[/b]
+[b]⚠ EXPÉRIMENTAL — sauvegardez votre partie avant de l'essayer.[/b]
+Je ne répondrai pas aux questions sur la compatibilité avec d'autres mods. Merci de tester vous-même.
+[/quote]
+[img]https://raw.githubusercontent.com/daimou1028/pz-basement-building-assets/main/long-fr.jpg[/img]
+
+[h2]Ce que fait ce mod[/h2]
+Creusez un sous-sol sous votre base avec une pelle. Contrairement aux autres mods de sous-sol, celui-ci est enregistré comme une véritable pièce :
+[list]
+[*][b]Compte comme un intérieur[/b] — le jeu traite le sous-sol comme une pièce intérieure, pas comme un terrain à ciel ouvert.
+[*][b]Alimenté[/b] — tant que le réseau électrique fonctionne, le sous-sol reçoit du courant et son interrupteur fonctionne.
+[*][b]Extensible[/b] — creusez une case à la fois derrière n'importe quel mur du sous-sol. Si vous touchez un autre sous-sol de ce mod, les deux fusionnent en une pièce.
+[*][b][NOUVEAU] Étendre les sous-sols de la carte[/b] : creusez aussi derrière le mur d'un sous-sol déjà sur la carte (voir « Extension » ci-dessous).
+[*][b][NOUVEAU] Récupérer les sols d'autres mods[/b] : clic droit sur un sol à côté de votre sous-sol pour le rattacher et en faire un intérieur (voir « Récupérer » ci-dessous).
+[*][b][NOUVEAU] Matériaux réduits de moitié[/b] : les menuisiers les connaissent dès le départ pour le sous-sol et son extension. Le sandbox choisit lesquels des 6 métiers (Menuisier, Maçon, Bûcheron, Ingénieur, Réparateur, Ferronnier ; par défaut Menuisier seul). Les autres, avec le magazine « Magazine : Guide de construction de sous-sols ». Comme tout butin, seulement dans les conteneurs pas encore ouverts.
+[*][b][NOUVEAU] Options sandbox[/b] : niveau max (0 = illimité, jusqu'au sous-sol 32) ; matériaux (×0,25–×3, ×1 par défaut, hors outils) ; extension des sous-sols de la carte (activée) ; aspect (bois du mod ou copier le voisin) ; ajout de sols d'autres mods (activé) ; magazine (activé, fréquence 5 niveaux, Normal) ; métiers aux matériaux réduits de moitié (par défaut Menuisier). Valeurs par défaut aussi hors sandbox.
+[/list]
+
+[h2]Où le trouver[/h2]
+Cliquez sur [b]Construction[/b] à gauche : tout est dans [b]Menuiserie[/b], ou « Sous-sol » dans la recherche. Choisissez, Construire, placez à la souris ; [b]R[/b] pivote.
+
+[h2]Objets[/h2]
+[table]
+[tr][th]Objet[/th][th]Menuiserie[/th][th]Matériaux[/th][th]Outils[/th][/tr]
+[tr][td]Sous-sol[/td][td]6[/td][td]69 planches, 88 clous, 1 fil électrique, 1 ampoule[/td][td]marteau, pelle[/td][/tr]
+[tr][td]Sous-sol (escalier en rondins)[/td][td]3[/td][td]60 bûches, 60 cordes / ficelles / tissus déchirés / cordes de draps, 8 planches, 8 clous, 1 fil électrique, 1 ampoule[/td][td]marteau, pelle, hache ou scie[/td][/tr]
+[tr][td]Extension du sous-sol (mur en planches)[/td][td]2[/td][td]13 planches, 19 clous[/td][td]marteau, pelle[/td][/tr]
+[tr][td]Extension du sous-sol (mur en rondins)[/td][td]2[/td][td]12 bûches, 12 cordes / ficelles / tissus déchirés / cordes de draps, 1 planche, 1 clou[/td][td]marteau, pelle[/td][/tr]
+[tr][td]Améliorer le mur du sous-sol[/td][td]2[/td][td]2 planches, 4 clous[/td][td]marteau[/td][/tr]
+[tr][td][NOUVEAU] Rattacher au sous-sol (clic droit)[/td][td]—[/td][td]aucun[/td][td]aucun[/td][/tr]
+[/table]
+
+[h2]Règles[/h2]
+[h3]Sous-sol (pièce de 4x2 avec escalier, un niveau plus bas)[/h3]
+[list]
+[*]Construisez-le au rez-de-chaussée ou [b][NOUVEAU] sur le sol d'un sous-sol (sans escalier en zone 4x2) pour creuser un niveau de plus, jusqu'au sous-sol 32[/b]. R choisit l'une des 4 orientations.
+[*]La zone doit être chargée, libre d'arbres, murs, objets solides et véhicules.
+[*]Ramassez d'abord les objets là où l'escalier descend. Sols sans terre/herbe (ex. dans une maison) : pied de biche (peu testé).
+[*]La case de sortie en haut de l'escalier (en bleu) doit être praticable.
+[*]Aucun sous-sol ni objet fabriqué par l'homme en dessous.
+[*]La lumière est éteinte à la construction. Utilisez l'interrupteur pour l'allumer.
+[/list]
+[h3]Extension du sous-sol (ajoute une case)[/h3]
+[list]
+[*]Visez la case derrière un mur du sous-sol.
+[*]Les murs à côté de l'escalier ne peuvent pas être étendus.
+[*]Si vous touchez un autre sous-sol de ce mod, les deux fusionnent en une pièce.
+[*][b][NOUVEAU] Un sous-sol déjà sur la carte peut aussi être étendu (mur en planches seulement). Le mur disparaît, on peut y circuler, mais ça reste une pièce distincte de celle de la carte.[/b]
+[*]Un nouveau sous-sol ne peut pas être creusé à moins d'une case d'une autre pièce : il reste donc ≥2 cases jusqu'à un sous-sol de la carte. Étendez l'espace entre pour les relier.
+[*]Les objets du mur retiré (tableaux, interrupteurs, etc.) restent en place, comme avec la masse d'origine ; détruisez-les un par un (R change cible).
+[*]Les cases étendues n'ont pas d'interrupteur.
+[*]Mur en planches : l'aspect suit votre niveau en Menuiserie (2–3 : niveau 1, 4–5 : niveau 2, 6+ : niveau 3).
+[*]Mur en rondins : uniquement pour sous-sols en rondins ; impossible sur sous-sol en bois.
+[/list]
+[h3]Améliorer le mur du sous-sol[/h3]
+[list]
+[*]Visez un mur du sous-sol (R bascule entre côté ouest et nord d'une case).
+[*]Amélioration seule : rondins → 1 → 2 → 3, selon votre Menuiserie.
+[*]Une pièce d'angle couvre deux côtés, améliorée en un ensemble.
+[/list]
+[h3][NOUVEAU] Récupérer (sols posés par d'autres mods)[/h3]
+[b]Concerne les sols que d'autres mods (comme Building Craft) ont posés hors d'un mur avant cette mise à jour ; plus aucun nouveau possible (voir « Autres »).[/b]
+[list]
+[*]Clic droit sur un sol juste à côté de votre sous-sol, puis [b]« Ajouter ce sol à la cave »[/b] : la case devient partie de la pièce du sous-sol (intérieur).
+[*]Aucun matériau requis, aucun mur ajouté automatiquement.
+[*]Les sols près d'un sous-sol de la carte peuvent aussi être récupérés ; pas sur les cases déjà en pièce, ni sur les sols non adjacents.
+[*]Si vous touchez un autre sous-sol de ce mod, les deux fusionnent en une pièce.
+[/list]
+[h3]Autres[/h3]
+[list]
+[*][b]La construction d'origine ne démonte pas les murs du sous-sol, mais si un autre mod a posé un sol dehors avant cette mise à jour, on peut le briser avec une masse.[/b]
+[*]Les sols de base du jeu peuvent être posés dans le sous-sol, comme au rez-de-chaussée.
+[*]Sous terre, rien (d'origine ou d'autres mods comme Building Craft / Place Anywhere) ne se pose hors d'une pièce ; les objets muraux restent accrochables côté intérieur.
+[/list]
+
+[h2]Testé[/h2]
+Project Zomboid 42.20.4, solo, macOS : construction menu, matériaux, intérieur, réseau/lumière, escaliers, extension (dont carte), fusion, mur, sauvegarde/rechargement, récupération de sol (après rechargement aussi), creuser jusqu'au sous-sol 18.
+
+[h2]⚠ Non testé / problèmes connus[/h2]
+[list]
+[*]Générateurs : non testés (seul le réseau vérifié).
+[*]Zombies apparaissant dans un sous-sol : non confirmé (descendre l'escalier est normal).
+[*]Si vous retirez ce mod d'une sauvegarde, les sous-sols restent (intérieur, avec électricité), mais magazine et recettes à moitié de matériaux disparaissent.
+[*]Après extension nord/ouest ou fusion de sous-sols, les anciennes données de pièce restent jusqu'au rechargement.
+[*][b]En creusant plus bas, une partie du nouveau niveau peut apparaître noire. Rechargez, ou éloignez-vous loin puis revenez.[/b]
+[/list]
+Merci de signaler les problèmes en commentaire, avec version du jeu et erreurs de console.txt.
